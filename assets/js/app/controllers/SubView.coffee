@@ -4,7 +4,6 @@
     $scope.items = items
   api.post {data:"this is data"}, ()->
     console.log "posted some data"
-
   $scope.activeLocation = $location.path()
 ]
 

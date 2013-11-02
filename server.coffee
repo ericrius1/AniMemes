@@ -10,7 +10,6 @@ app.configure ()->
   app.set 'views', __dirname + '/views'
   app.set 'view engine', 'jade'
   app.use (require 'connect-assets')()
-  app.use "/img",express.static path.join __dirname,"assets/img"
   app.use "/css",express.static path.join __dirname,"assets/css"
 
 app.get "/",(req,res)->

@@ -1,4 +1,4 @@
-app.factory "api",["$http",($http)->
+AniMemeApp.factory "api",["$http",($http)->
   api = {}
 
   api.get = (cb)->
