@@ -1,4 +1,4 @@
 @AniMemeApp = angular.module('AniMemeApp',[]).config ($routeProvider)->
   $routeProvider.
-    when('/', {controller:SubView, templateUrl:'subView'}).
+    when('/', {controller: Home, templateUrl:'homeView'}).
     otherwise({redirectTo:'/'});

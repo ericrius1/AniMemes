@@ -1,3 +1,3 @@
 #= require ./app/app
-#= require ./controllers/SubView
+#= require ./controllers/Home
 #= require ./services/api

@@ -1,4 +1,4 @@
-@SubView = ["$scope","api","$location",($scope,api,$location)->
+@Home = ["$scope","api","$location",($scope,api,$location)->
   $scope.items = []
   api.get (items)->
     $scope.items = items

@@ -15,8 +15,8 @@ app.configure ()->
 app.get "/",(req,res)->
   res.render "index"
 
-app.get "/subView",(req,res)->
-  res.render "subView"
+app.get "/homeView",(req,res)->
+  res.render "homeView"
 
 if config.db
   model = modelFactory db.connect config.db
