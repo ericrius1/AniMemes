@@ -1,0 +1,10 @@
+{
+  "name": "AnimMemes",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "1.2.0-rc.1",
+    "angular-resource": "1.2.0-rc.1",
+    "angular-cookies": "1.2.0-rc.1",
+    "angular-loader": "1.2.0-rc.1"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "db":
     {
-      "uri": "mongodb://localhost:27017/express-angular-seed"
+      "uri": "mongodb://localhost:27017/AniMemes"
     }
 }

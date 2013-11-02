@@ -1,5 +1,5 @@
 mongoose = require "mongoose"
-debug = require('debug')('express-angular-seed:db')
+debug = require('debug')('AniMemes:db')
 
 exports.connect = (config) ->
   connection = mongoose.createConnection config.uri,config.options
