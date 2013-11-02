@@ -1,0 +1,17 @@
+head
+  meta(charset="utf-8")
+  title express-angular-seed
+
+  link(rel='stylesheet', href='/css/bootstrap.min.css')
+  != css('main')
+  != js('vendor/angular/angular')
+  != js('app/scripts')
+
+  body(ng-app="app")
+    div(ng-controller="NavController").navbar
+      div.navbar-inner
+        ul.nav
+          li(ng-repeat="navItem in navItems",ng-class="isActive(navItem.url)")
+            a(href = "{{navItem.url}}") {{navItem.name}}
+      div(ng-view)
+

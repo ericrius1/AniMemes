@@ -1,0 +1,27 @@
+{
+  "name": "express-angular-seed",
+  "version": "0.1.1",
+  "author": "Anton Ögerg <anton.oberg@lanemarknad.se>",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "express": "3.1.0",
+    "mongoose": "3.5.4",
+    "coffee-script": "1.4.0",
+    "debug":"0.7.2",
+    "connect-assets":"2.4.1",
+    "jade": "0.x",
+    "stylus": "0.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "0.7.1"
+  }
+}
