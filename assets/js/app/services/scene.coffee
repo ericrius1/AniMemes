@@ -1,1 +1,1 @@
-Scene 
+AniMemeApp.factory "scene"
