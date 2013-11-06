@@ -1,5 +1,6 @@
 AniMemeApp.factory "scene", [() ->
 	init: ()->
+		debugger;
 		scene = new THREE.Scene()
 		camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 10000)
 		camera.position.z = 50
@@ -16,16 +17,13 @@ AniMemeApp.factory "scene", [() ->
 		render = ()->
 			renderer.setClearColor(0x000000)
 			renderer.render(scene, camera) 
-			console.log('wah')
 		animate()
+
+		addEventListeners = ()->
+
+
+
 ]
 
 
 
-	# animate: ()->
-	# 	requestAnimationFrame(animate)
-	# 	// Using a fixed time-step here to avoid pauses
-	# 	render(0.016)
-
-	# render: ()->
-	# 	renderer.render(scene, camera) 

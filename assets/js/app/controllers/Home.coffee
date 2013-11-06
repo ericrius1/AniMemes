@@ -1,5 +1,3 @@
-@Home = ["$scope", "scene", ($scope, scene)->
-	scene.init()
+@HomeCtrl = ["$scope", ($scope)->
+	debugger;
 ]
-
-
